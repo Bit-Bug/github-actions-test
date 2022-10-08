@@ -13,3 +13,8 @@ jobs:
         run: |
           node -v
           npm -v
+      - name: python command
+        run: |
+          imort platform
+          print(platform.processor())
+        shell: python
