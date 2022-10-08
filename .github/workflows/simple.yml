@@ -15,6 +15,6 @@ jobs:
           npm -v
       - name: python command
         run: |
-          imort platform
+          import platform
           print(platform.processor())
         shell: python
